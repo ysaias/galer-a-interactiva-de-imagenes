@@ -1,5 +1,50 @@
 .App {
+
+  display: flex;
+}
+
+.style_son{
+  width: 33.33%;
+  border: 1px solid gray;
   text-align: center;
+}
+
+.style_colors{
+  display: flex;
+}
+
+.style_color{
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.style_color:nth-child(1){
+  background-color: #4285f4;
+}
+
+.style_color:nth-child(2){
+  background-color: #ea4335;
+}
+
+.style_color:nth-child(3){
+  background-color: #fbbc05;
+}
+
+.style_color:nth-child(4){
+  background-color: #34a835;
+}
+
+h3{
+  color: white;
+}
+
+img{
+  width: 80%;
+  height: 70%;
+  border-radius: 5px;
 }
 
 .App-logo {

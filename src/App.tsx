@@ -1,25 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import { XData } from './Context/XContext';
+import Color from './Color/Color';
+import Page1 from './Page/Page1';
+import Page2 from './Page/Page2';
+import Page3 from './Page/Page3';
+import img1 from './imagenes/santa cruz ok.jpg'
+import img2 from './imagenes/samaipata.jpeg'
+import img3 from './imagenes/jardin.jpg'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <XData>
+        <div className="App">
+          <Page1 pimg={img1}
+            ptext='Bienvenidos a Santa Cruz' />
+
+          <Page2 pimg={img2}
+            ptext='Bienvenidos a Samaipata' />
+          
+          <Page3 pimg={img3}
+            ptext='Bienvenidos a Jardin de las Delicias' />
+        
+        </div>
+        <Color />
+      </XData>
+    </>
   );
 }
 
