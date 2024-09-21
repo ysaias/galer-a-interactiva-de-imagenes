@@ -51,6 +51,8 @@ Modularidad: Cada componente (página) es independiente, pero todos comparten el
 Interfaz de usuario intuitiva: El usuario puede cambiar el fondo de forma interactiva con solo un clic.
 ### Ejemplo de Funcionamiento:
 ![image](https://github.com/user-attachments/assets/b0bb98cc-df1d-473d-8d9e-e828da6ccf9b)
+
+En este caso de los cuatro colores disponibles, se seleccionó Azul, entoces el background-color o color de fondo de las tres paginas se hizo azul
 ![image](https://github.com/user-attachments/assets/161bf58f-992f-4b67-aee1-bfd6f013557f)
 
 
